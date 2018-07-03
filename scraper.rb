@@ -7,7 +7,6 @@ agent = Mechanize.new
 username = ARGV[0]
 password = ARGV[1]
 
-# Below opens URL requesting username and finds first field and fills in form then submits page.
 login_url = 'http://tripovo-admin-mt.goquo.vn/account/login'
 url = 'http://tripovo-admin-mt.goquo.vn/admin/activities/11111111-1111-1111-1111-111111111111/4273955d-25bb-404c-ba00-6dca66a8bf76'
 login = agent.get(url)
